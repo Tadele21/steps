@@ -1,0 +1,59 @@
+
+
+
+
+What is state in react?
+##Componet contains 
+   
+   Data (Props and State)
+   Logic 
+   Appearance
+
+##STATE
+
+ Data that a componet can hold over time, nexessary for information
+ that it needs to remember through the app's lifecycle.
+
+Component's memory.
+
+"State variables" / "Piece of state": A single variable in a component (componet state).
+Updating component state triggers the React to re - render the component.
+
+
+ Therefor, we can think of state as being the memory of a component.
+
+
+
+
+
+State is the most important concept in React.
+--Everything basically revolves around State in React.
+
+## What is state and why do we need it? 
+ How to use state in practice?
+        
+         - UseState 
+         - useReducer
+         -Context API
+
+##Thinking about State 
+
+         When to use state.
+         Where to place state
+         Types of state.
+
+
+## We dont have to call useState on 
+        -IF statement 
+        -For loop
+        _ Functions
+## Treat state as immutable in react so as something that you cannot directly, 
+but that you can only change using the tools that react gives us using the state setter function.
+
+
+## We don't do direct DOM manipulation because React is declarative not imperative.
+How is a component view updated then? -> In React, a view is updated by re- rendered by the component 
+ -> A component is re- rendered when its state is updated -> So to update a view, we update state.
+
+ ## React reacts to state changes by re -rendering the UI.
+
