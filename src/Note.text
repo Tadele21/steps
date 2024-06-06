@@ -1,7 +1,5 @@
 
 
-
-
 What is state in react?
 ##Componet contains 
    
@@ -57,3 +55,23 @@ How is a component view updated then? -> In React, a view is updated by re- rend
 
  ## React reacts to state changes by re -rendering the UI.
 
+ ## Practical Guidlines About STATE.
+    - Use a state variable for any data that the component should keep track of ("remember) over time.
+    This is data that will chnage at some point. In Vanilla Js, that's a let variable, or an [] or {}
+
+    -Whenever you want something in the component to be dynamic, create a piece of state related to that "thing", and update the state when
+    the "thing" should change (aka "be dynamic")
+
+         # Example: A modal window can be open or closed. So we create a state variable isOPen that tracks whether the modal is open or not. On isOpen = true.
+                    We display the window, on isOPen = false we hide it.
+
+#if you want to change the way a componet looks, or the data it displays, update its state.
+     This usally happens in an event handle function.
+
+#When building a component, imagine its view as a reflection of state changing over time.
+
+##For data that should not trigger component re-renders, don't use state. Use regular varibale instead. 
+   This is a common beginner mistake.
+
+
+   
